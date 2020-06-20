@@ -9,7 +9,7 @@ from stem import Signal
 from stem.control import Controller
 import ssl
 
-percentageProbability = 60
+percentageProbability = 80
 websiteUrl = ""
 websiteAllUrls = []
 checkedUrls = []
