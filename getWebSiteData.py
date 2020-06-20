@@ -60,7 +60,8 @@ def writeToFile(link, fname):
 	fw.close()
 
 if __name__ == '__main__':
-	websiteUrl = (input("Enter the website url : ")).strip()
+	# websiteUrl = (input("Enter the website url : ")).strip()
+	websiteUrl = "https://www.tiktok.com/".strip()
 	getWebsiteLinks(websiteUrl)
 	if websiteUrl[len(websiteUrl) - 1] == '/':
 		websiteUrl = websiteUrl[0:len(websiteUrl) - 1]
@@ -73,6 +74,7 @@ if __name__ == '__main__':
 				counter = counter + 1
 		if counter == 0:
 			break
+	print(websiteAllUrls)
 	filename = str(websiteUrl) + '.txt'
 	for i in websiteAllUrls:
 		writeToFile(i, filename)
