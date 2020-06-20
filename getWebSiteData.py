@@ -71,7 +71,7 @@ if __name__ == '__main__':
 				getWebsiteLinks(i)
 				checkedUrls.append(i)
 				counter = counter + 1
-		if counter = 0:
+		if counter == 0:
 			break
 	filename = str(websiteUrl) + '.txt'
 	for i in websiteAllUrls:
