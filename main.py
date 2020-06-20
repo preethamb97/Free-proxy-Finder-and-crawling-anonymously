@@ -13,6 +13,7 @@ allWebSiteUrls = []
 allUrls = []
 proxyList = []
 fileName = 'proxy.txt'
+# get new tor circuit by probability
 percentageProbability = 60
 
 def torIpCheck():
