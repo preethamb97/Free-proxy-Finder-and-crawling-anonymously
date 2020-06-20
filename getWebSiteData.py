@@ -70,7 +70,7 @@ if __name__ == '__main__':
 			if i not in checkedUrls:
 				getWebsiteLinks(i)
 				checkedUrls.append(i)
-				counter + = 1
+				counter = counter + 1
 		if counter = 0:
 			break
 	filename = str(websiteUrl) + '.txt'
