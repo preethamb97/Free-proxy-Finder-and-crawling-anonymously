@@ -61,7 +61,7 @@ def writeToFile(link, fname):
 
 if __name__ == '__main__':
 	# websiteUrl = (input("Enter the website url : ")).strip()
-	websiteUrl = "https://www.tiktok.com/".strip()
+	websiteUrl = "https://www.website.com/".strip()
 	getWebsiteLinks(websiteUrl)
 	if websiteUrl[len(websiteUrl) - 1] == '/':
 		websiteUrl = websiteUrl[0:len(websiteUrl) - 1]
